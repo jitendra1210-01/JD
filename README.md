@@ -1,1 +1,2 @@
-# JD
+# Jitendra Portfolio
+Author : Jitendra Dabhi
