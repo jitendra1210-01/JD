@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Jitendra's Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Jitendra Dabhi - Web Developer Portfolio showcasing skills in HTML, CSS, JS, PHP, MySQL, and more." name="description">
+<meta content="Web Developer, Jitendra Dabhi, Portfolio, HTML, CSS, PHP, MySQL, JavaScript, Ahmedabad" name="keywords">
 
 
-  <link href="favicon.png" rel="icon">
+
+  <link href="img/favicon.png~" rel="icon">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
@@ -22,7 +23,7 @@
   <link href="vendor/aos/aos.css" rel="stylesheet">
   <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <!-- Main CSS File -->
   <link href="main.css" rel="stylesheet">
 
@@ -43,7 +44,7 @@
     </a>
 
     <div class="social-links text-center">
-      <a href="https://x.com/Jitendra_0027" class="facebook" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://x.com/Jitendra_0027" class="twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
       <a href="https://github.com/jitendra1210-01" class="github" target="_blank"><i class="bi bi-github"></i></a>
       <a href="https://www.linkedin.com/in/jitendra1210" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
       <a href="tel:+917490941144" class="instagram" target="_blank"><i class="bi bi-telephone"></i></a>
@@ -56,6 +57,7 @@
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#projects"><i class="bi bi-menu-button navicon"></i> Projects</a></li>
+        <li><a href="#certificates"><i class="bi bi-mortarboard navicon"></i> Certificates</a></li>
 
         <li><a href="#contact"><i class="bi bi-telephone navicon"></i> Contact</a></li>
       </ul>
@@ -68,7 +70,7 @@
 
     <section id="hero" class="hero section dark-background">
 
-      <img src="img/hero.JPG" alt="" data-aos="fade-in" class="">
+      <img src="img/hero.JPG" alt="my image" data-aos="fade-in" class="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Jitendra Dabhi</h2>
@@ -275,8 +277,7 @@
     </section><!-- /Resume Section -->
 
     <section id="projects" class="resume section">
-
-      <!-- Section Title -->
+  
       <div class="container section-title" data-aos="fade-up">
         <h2>Projects</h2>
         <!-- End Section Title -->
@@ -311,6 +312,49 @@
       </div>
 
     </section>
+  
+    <!-- Certificates Section -->
+<section id="certificates" class="certificates section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Certificates</h2>
+    <p>Here are some of my earned certificates displayed in a slider.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="swiper certificate-slider">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide text-center">
+          <img src="img/Certificate1.jpg" class="img-fluid rounded shadow" alt="Certificate 1">
+    
+        </div>
+        <div class="swiper-slide text-center">
+          <img src="img/Certificate2.jpg" class="img-fluid rounded shadow" alt="Certificate 1">
+        </div>
+        <div class="swiper-slide text-center">
+          <img src="img/Certificate3.jpg" class="img-fluid rounded shadow" alt="Certificate 1">
+        </div>
+        <div class="swiper-slide text-center">
+          <img src="img/Certificate4.jpg" class="img-fluid rounded shadow" alt="Certificate 1">
+        </div>
+        <div class="swiper-slide text-center">
+          <img src="img/Certificate5.jpg" class="img-fluid rounded shadow" alt="Certificate 1">
+        </div>
+
+       
+        <!-- Add more slides as needed -->
+
+      </div>
+      <!-- Navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <!-- Pagination dots -->
+      <div class="swiper-pagination mt-3"></div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Contact Section -->
 <section id="contact" class="contact section">
@@ -380,6 +424,7 @@
   <script src="vendor/glightbox/js/glightbox.min.js"></script>
   <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <!-- <script src="vendor/swiper/swiper-bundle.min.js"></script> -->
 
   <!-- Main JS File -->

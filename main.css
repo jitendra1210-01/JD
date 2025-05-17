@@ -746,3 +746,22 @@ section,
 .contact .contact-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--heading-color), transparent 25%);
 }
+
+  .certificate-slider .swiper-slide {
+    text-align: center;
+  }
+
+  .certificate-slider img {
+    width: 100%;
+    max-width: 400px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000; /* Adjust if needed for dark mode */
+  }
+
+

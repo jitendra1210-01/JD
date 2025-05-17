@@ -222,4 +222,21 @@
 })();
 
 
+  var swiper = new Swiper(".certificate-slider", {
+    slidesPerView: 1,         // Only one certificate visible at a time
+    spaceBetween: 30,         // Optional spacing (not visible with only 1 slide)
+    loop: true,
+    centeredSlides: true,
+    grabCursor: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  });
+
+
 
